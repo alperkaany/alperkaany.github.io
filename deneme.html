@@ -1,0 +1,328 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+</head>
+<style>
+body {
+    font-family: Verdana;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+h4 {
+    font-size: 18px;
+    text-align: center;
+    line-height: 380px;
+}
+.wrapper {
+    position: absolute;
+    width:100%;
+    padding: 0px;
+	left: 0px;
+	height: 100%;
+	
+}
+section {
+    background: #ffffff;
+    position: absolute;
+    display: none;
+    top: 70px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    display:block;
+    color: #000000;
+    
+}
+section:first-of-type {
+    display: block;
+}
+nav {
+    float: left;
+    width: 100%;
+	
+}
+ul {   
+	
+	list-style: none;
+	margin: 0;
+    padding: 20;
+    overflow: hidden;
+    border: 2px solid #e7e7e7;
+    background-color: #454e5c;
+}
+li {
+	display: inline;
+	
+}
+
+
+/* Style the tab */
+
+.tab {
+  
+  float: left;
+  position: absolute;
+  background-color:#b3b3b3;
+  width: 30%;
+  height: 1800px;
+  
+  left:0px;
+  top:60px
+ 
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  
+  display: block;
+  background-color: #00cc99;
+  color: black;
+  padding: 22px 16px;
+  width:100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+  
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  
+  float: left;
+  padding: 0px 12px;
+  width: 42%;
+  border-left: none;
+  height: 1800px;
+  position: absolute;
+  left:400px;
+    background-color: inherit;
+}
+.column {
+box-sizing: border-box;
+  background-color:	 #ffcc00;
+  position: absolute;
+  float: right;
+  width: 26%;
+  padding: 10px;
+  height: 1800px; 
+  right:0px;
+  top:60px
+  
+ }
+ 
+ 
+
+
+h1 {
+position: absolute;
+right:70px;
+}
+h5 {
+position: absolute;
+left:15px;
+
+}
+img {
+  position: absolute;
+  left: 15px;
+  top: 0px;
+  z-index: -1;
+}
+
+</style>
+
+
+<body>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <h2> <center><font size=7>ETU SOSYAL </font></center> </h2>
+  <img src="etu sosyal logo.png" alt="Image" height="100" width="250">
+  <p><center>TOBB ETÜ'LÜNÜN PLATFORMU!</center></p>
+
+<div class="wrapper">
+
+  <nav>
+    <ul>
+      <li data-rel="1" class="active"><font size=4><font color="white">Home		</li>
+      <li data-rel="2">Mentor		</li>
+      <li data-rel="3">Profil		</li>
+      <li data-rel="4">Hakkında		</font></li>
+    </ul>
+  </nav>
+
+  <section>
+   
+   <h5> <font size=5>Etkinlik ve Duyurular    </h5>
+   <h1> WhatsApp Grupları </font> </h1>
+
+
+		<div class="tab">
+		  <button class="tablinks" onclick="openCity(event, '1st International Workshop on Plasticity, Damage and Fracture of Engineering Materials')"id="defaultOpen">1st International Workshop on Plasticity, Damage and Fracture of Engineering Materials</button>
+		  <button class="tablinks" onclick="openCity(event, '10 Temmuz RHCP Konseri -İstanbul')">10 Temmuz RHCP Konseri -İstanbul</button>
+		  <button class="tablinks" onclick="openCity(event, '14 Temmuz Huzurevi Ziyareti')">14 Temmuz Huzurevi Ziyareti</button>
+		  <button class="tablinks" onclick="openCity(event, 'Bas gitarist aranıyor!')">Bas gitarist aranıyor!</button>
+		</div>
+
+		<div id="1st International Workshop on Plasticity, Damage and Fracture of Engineering Materials" class="tabcontent">
+		  <h3>1st International Workshop on Plasticity, Damage and Fracture of Engineering Materials</h3>
+		  <p>"The aim of the 1st International Workshop on "Plasticity, Damage and Fracture" of Engineering Materials is to discuss recent progress in the fields of plasticity, damage, and fracture mechanics. The workshop is co-organized by the Middle East Technical University and TOBB University of Economics and Technology, and will be held on 22-23 August 2019 in Ankara, Turkey."
+		<br/> 
+		<br/>
+		Yer:  TOBB ETÜ Konferans Salonu <br/>
+		Haritada Görüntüleme            <br/>
+		Tarih ve Saat: 22 Ağustos 2019 08:30 - 23 Ağustos 2019 17:30 <br/>
+		Ücretsiz Etkinlik <br/>
+		Kategori: Eğitim, Mühendislik <br/>
+		Ulaşım: Okul Servisleri <br/>
+		Servis Saatleri İçin Tıklayınız <br/>
+		Ekleyen Kişi: Makine Mühendisliği Bölümü <br/>
+		Etkinlik Linki İçin Tıklayınız</p>
+		</div>
+
+		<div id="10 Temmuz RHCP Konseri -İstanbul" class="tabcontent">
+		  <h3>10 Temmuz RHCP Konseri -İstanbul</h3>
+		  <p>Arkadaşlar merhaba,
+		10 Temmuz 2019 günü saat 22:30'da Uniq İstanbulda gerçekleşecek olan RHCP konserine 2 kişi gitmeyi düşünüyoruz. İstanbul'a ulaşımı kendi aracımızla yapacağımız için yol masraflarını da bölüşebileceğimiz bizimle konsere gelebilecek 2 kişi daha aramaktayız ilgilenen olursa bizimle iletişime geçebilir.
+		<br/>
+		<br/>
+		Yer:  Uniq Music Hall, İstanbul <br/>
+		Haritada Görüntüleme       <br/>     
+		Tarih ve Saat: 10 Temmuz 2019, 22:30 <br/>
+		Ücretli Etkinlik<br/>
+		Kategori: Eğlence, Müzik<br/>
+		Ulaşım: Diğer<br/>
+		Ekleyen Kişi: Maide Ceren Kaymaz, İpek Anıl Atalay<br/>
+		Etkinlik Linki İçin Tıklayınız</p> 
+		</div>
+
+		<div id="14 Temmuz Huzurevi Ziyareti" class="tabcontent">
+		  <h3>14 Temmuz Huzurevi Ziyareti</h3>
+		  <p>TOBB ETÜ öğrencileri olarak 14 Temmuz 2019 günü Bahçelievler Huzurevi'ne ziyarete gidilecektir. Kontenjan 15 kişi ile sınırlıdır. İlgilenenlerin aşağıdaki formu doldurması gerekmektedir.
+		Form için tıklayınız 
+		<br/>
+		<br/>
+		Yer:  Bahçelievler, Ankara<br/>
+		Haritada Görüntüleme     <br/>       
+		Tarih ve Saat: 14 Temmuz 2019, 14:00<br/>
+		Ücretsiz Etkinlik<br/>
+		Kategori: Diğer<br/>
+		Ulaşım: Okul Servisleri<br/>
+		Ekleyen Kişi: Gözde Nur Arıcı, Alper Yıldız</p>
+		</div>
+
+		<div id="Bas gitarist aranıyor!" class="tabcontent">
+		  <h3>Bas gitarist aranıyor!</h3>
+		  <p>
+		  3 kişilik müzik grubumuza bas gitarist aramaktayız. İlgilenen arkadaşlar bizimle iletişime geçebilir.<br/>
+		<br/>
+		Yer: Ankara<br/>
+		Tarih ve Saat: Belirtilmemiş<br/>
+		Ücretsiz Etkinlik<br/>
+		Kategori: Eğlence, Müzik<br/>
+		Ekleyen Kişi: Onur, Yunus </p>
+		</div>
+
+		<div class="row">
+
+		  <div class="column">
+			
+			<a href='https://chat.whatsapp.com/CAzDPvKP0De8u7H6g3ifsI' target=”_blank”>TOBB ETU Trekking Grubu</a>
+			<p> Doğa sporlarına ilgi duyanlar buradan gerçekleşecek olan yürüyüşler hakkında bilgi edinebilirsiniz. </p>
+			<a href='https://chat.whatsapp.com/GMc37jWi9LwFzLkTObSotZ' target=”_blank”>Optik ve Fizik Grubu</a>
+			<p> Optik ve fizik alanında bilgi paylaşımı ve ortak proje platformu </p>
+			<a href='https://chat.whatsapp.com/H70LqrSaqF54KzgXaQ8aOx' target=”_blank”>Müzik Grubu</a>
+			<p> Müzikle ilgili her şey...</p>
+			<a href='https://chat.whatsapp.com/H70LqrSaqF54KzgXaQ8aOx' target=”_blank”>Board Games ve FRP Grubu</a>
+			<p> Board Games ve FRP için takım arkadaşları bulma platformu </p>
+			<a href='https://chat.whatsapp.com/IUhPETEG0PxAVXj1d7p38z' target=”_blank”>Yüzme Grubu</a>
+			<p> Havuz deniz fark etmez, yüzme sevenlerin ortak buluşma noktası </p>	
+			
+			<a href='https://chat.whatsapp.com/Domxa4wGncfHZQrBXlquX3' target=”_blank”>Yemek ve Aşçılık Grubu</a>
+			<p> Yemek ve restoran önerileri için grubumuza katılabilirsiniz. </p>
+			<a href='https://chat.whatsapp.com/Hf6WZs9kihv5oMZZtPaLV6' target=”_blank”>Halı Saha Grubu</a>
+			<p>Halı saha adam eksiği derdine son, ayrıca gruptakilerle maç da planlayabilirsiniz. </p>
+			
+			<a href='https://chat.whatsapp.com/LBS8FOSnboiIGrv7fkyRTk' target=”_blank”>Anime Grubu </a>
+			<p> Anime tartışabileceğiniz ve yeni anime önerileri bulabileceğiniz bir grup </p>	
+			<a href='https://chat.whatsapp.com/JlqYCBIBENvH5x7E5OlVp9' target=”_blank”>Oryantasyon Grubu (Yeni gelen öğrenciler için)</a>
+			<p>Okulda yeni misiniz? </p>
+			<a href='https://chat.whatsapp.com/FHGarFYTGp7GsqXdUPpbPX' target=”_blank”>Hayvanseverler Grubu</a>
+			<p> Hayvanlar için mama toplama, bağış yapma ve sahiplendirme grubu </p>
+			<a href='https://chat.whatsapp.com/Ij5Ot5mjUEJ3WSd5ovdBBc' target=”_blank”>Online Oyun Grubu</a>
+			<p>Dota, LOL, Pubg vb benzeri oyunlar için takım arkadaşı  bulma  veya turnuva düzenleme grubu </p>
+			
+			<a href='https://chat.whatsapp.com/IUHf4b38Lf9HZL5ru98mLL' target=”_blank”>2. El Alım Satım Grubu</a>
+			<p> Kullanmadığınız her şeyi satabileceğiniz ya da değiş tokuş edebileceğiniz bir platform </p>
+			
+			<a href='https://chat.whatsapp.com/F2yHWjXdy6X31HILg1btX5' target=”_blank”>TOBB ETU BlaBla Car</a>
+			<p>Şehir dışına arabanızla mı çıkıyorsunuz? TOBB ETÜ öğrencileri ile benzini bölüşebileceğiniz ya da şehir dışına giden ve arabasını paylaşmak isteyen TOBB ETÜ'lü bulabileceğiniz bir grup </p>
+		  
+		  <a href='https://chat.whatsapp.com/IckZ3OJD4VC7bl5smCaTTh' target=”_blank”>TOBB ETU Ev Arkadaşı Bulma ve Kiralık Ev İlanı Grubu</a>
+			<p> Yurttan memnun değilseniz ve eve çıkmak istiyorsanız yararlanabileceğiniz bir grup </p>
+		   
+		   
+   
+  </section>
+
+  <section>
+    <article>
+      <h4>Section 2</h4>
+    </article>
+  </section>
+
+  <section>
+    <article>
+      <h4>Section 3</h4>
+    </article>
+  </section>
+
+  <section>
+    <article>
+      <h4>Section 4</h4>
+    </article>
+  </section>
+
+</div>
+
+
+
+<script>
+  (function($) {
+    $('nav li').click(function() {
+      $(this).addClass('active').siblings('li').removeClass('active');
+      $('section:nth-of-type('+$(this).data('rel')+')').stop().fadeIn(400, 'linear').siblings('section').stop().fadeOut(400, 'linear'); 
+    });
+  })(jQuery);
+  
+  function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+</script>
+</body>
+</html> 
