@@ -130,16 +130,16 @@
       </svg>
     </div>
 
-    <form onSubmit="return false;" method="POST" class="form login">
+    <form action="../index2.html" method="POST" class="form login">
       <div class="form__field form__field--email">
         <label class="label label--icon" for="login__email">
           <svg class="icon">
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#user"></use>
           </svg>
-          <span class="hidden">Email</span>
+          <span class="hidden">Eposta</span>
         </label>
         <div class="form__input-wrapper">
-          <input id="login__email" type="text" name="email" class="form__input" placeholder="Email" required>
+          <input id="login__email" type="text" name="email" class="form__input" placeholder="Eposta" required>
           <!--
               FF is ignoring position relative of form__input-wrapper so added a wrapper for .underline.
               NOTE: just the precense of this comment fixes this FF issue (making the underline-wrapper unncessary).
@@ -156,10 +156,10 @@
           <svg class="icon">
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#lock"></use>
           </svg>
-          <span class="hidden">Password</span>
+          <span class="hidden">Şifre</span>
         </label>
         <div class="form__input-wrapper">
-          <input id="login__password" type="password" name="password" class="form__input" placeholder="Password" required>
+          <input id="login__password" type="password" name="password" class="form__input" placeholder="Şifre" required>
           <!--
               FF is ignoring position relative of form__input-wrapper so added a wrapper for .underline.
               NOTE: just the precense of this comment fixes this FF issue (making the underline-wrapper unncessary).
@@ -176,14 +176,14 @@
           <label class="label label--remember-me" for="login__remember-me">
             <input id="login__remember-me" type="checkbox">
             <span class="checkmark"></span>
-            <span class="remember-me-text">Remember me</span>
+            <span class="remember-me-text">Beni hatırla</span>
           </label>
         </div>
 
-        <a class="forgot-password" href="#">Forgot Password?</a>
+        <a class="forgot-password" href="#">Şifremi unuttum</a>
 
         <div class="form__field form__field--submit">
-          <input type="submit" value="log in">
+          <input type="submit" value="GİRİŞ">
         </div>
       </div>
     </form>
